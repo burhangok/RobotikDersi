@@ -1,0 +1,22 @@
+
+
+
+//cekmekoy genclik merkezi robotik sistemler dersi
+void setup() {
+
+pinMode(8, OUTPUT);
+  
+  }
+
+
+// burhangok
+void loop () {
+
+digitalWrite(8, HIGH); // 8 Nolu pine bağlı ledi yakar (HIGH akıma izin veriyoruz)
+delay(1000); // 1 Saniye bekler
+digitalWrite(8, LOW); // 8 Nolu pine bağlı ledi söndürür
+delay(1000); // 1 Saniye bekler
+
+}
+ 
+
